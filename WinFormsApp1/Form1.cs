@@ -43,7 +43,7 @@ namespace WinFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 frm = new Form2();
-            frm.WindowState = FormWindowState.Maximized;
+          //  frm.WindowState = FormWindowState.Maximized;
             frm.Show();
             return;
             string[] p1Str = textBox1.Text.Split(",");
